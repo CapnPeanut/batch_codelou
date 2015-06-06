@@ -1,4 +1,82 @@
+a {
+    text-decoration: none;   
+}
+
+
+header {
+    background-image: url(/img/utopia.jpg);
+    
+}
+
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;   
+}
 
 
 
 
+
+
+
+nav {
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+nav a {
+    color: white;
+    padding: 0 10px;
+}
+
+#list_1 {
+    color: white;
+    list-style-type: none;
+}
+
+
+#paragraph_1 {
+    color: white;
+}
+
+body {
+    text-align: center;
+    background-image: url(/img/nature%20trees.jpg);   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: green;
+    color: white
+}
