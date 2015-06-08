@@ -1,3 +1,10 @@
+/********************************************
+General
+********************************************/
+
+
+
+
 a {
     text-decoration: none;   
 }
@@ -10,17 +17,25 @@ header {
 
 
 h1 {
+    font-family: 'Pacifico', sans-serif; 
     margin: auto;
     text-align: center;
+    color: dimgray;
+    margin: 10px 10px 20px 10px;
+        
 }
 
 h2 {
-    text-align: center;   
+    text-align: center; 
+    opacity: .2;
+    margin: 0px 10px 10px;
 }
 
 
 
-
+/********************************************
+Navigation Bar
+********************************************/
 
 
 
@@ -37,10 +52,25 @@ nav a {
     padding: 0 10px;
 }
 
+nav a:hover {
+   color: #66a266; 
+}
+
+nav a:visited {
+    color: #003c00;
+}
+
 #list_1 {
     color: white;
     list-style-type: none;
 }
+
+
+
+/********************************************
+Body
+********************************************/
+
 
 
 #paragraph_1 {
@@ -50,28 +80,19 @@ nav a {
 body {
     text-align: center;
     background-image: url(/img/nature%20trees.jpg);   
+    
+}
 
+#nature_trees {
+  
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/********************************************
+Footer
+********************************************/
 
 
 
@@ -80,3 +101,20 @@ footer {
     background-color: green;
     color: white
 }
+
+
+
+
+
+/********************************************
+Excess Code
+********************************************/
+
+
+/*  id="nature_image"
+
+
+
+
+
+*/
