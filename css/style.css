@@ -2,7 +2,9 @@
 General
 ********************************************/
 
-
+body {
+    padding: 10px;   
+}
 
 img {
     max-width: 100%; 
@@ -26,7 +28,10 @@ Header
 
 
 header {
+    
     background-image: url(/img/utopia.jpg);
+    background-repeat: no-repeat;
+    
     
 }
 
@@ -47,14 +52,29 @@ h2 {
 }
 
 h3 {
-    text-align: center;   
+    text-align: center;
+    font-family: 'Kaushan Script', sans-serif;
 }
 
 h4 {
     text-align: center;   
 }
+
+
+
+
+
 .contact-header {
     padding-top: 10%;
+}
+
+.contact-info {
+    
+    text-align: center;
+}
+
+.contact-hours {
+    text-align: center;
 }
 
 
@@ -68,7 +88,7 @@ nav {
     background-color: green;
     color: white;
     text-align: center;
-    margin: auto;
+    
 
 }
 
@@ -76,6 +96,7 @@ nav a {
     color: white;
     padding: 0 10px;
     display: inline-block;
+    
 }
 
 nav a:visited {
@@ -108,7 +129,7 @@ Body
 
 #left_margin{
     float: left;
-    margin: auto;
+    
 }
 
 #center_margin {
@@ -116,23 +137,24 @@ Body
     float: left;
     width: 55%;
     padding: 2.5%;
+    border-right: 4px solid #000;
+    border-left: 4px solid #000;
     
 }
 
 #right_margin{
     float: left;
-    margin: auto;
+    
 }
 
 .side_margins {
-    max-width: 15%; 
+    min-width: 15%; 
     width: 15%;
-    padding: 2.5%;
+    padding: 2%;
 }
 
 .main_content {
-    border-right: 20px;
-    border-color: black;
+    
 }
 
 
@@ -142,7 +164,8 @@ Body
 
 body {
     text-align: center;
-    background-image: url(/img/nature%20trees.jpg);   
+    background-image: url(/img/nature%20trees.jpg);  
+    background-repeat: no-repeat;
     
 }
 

@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+    nav a {
+        min-width: 100%;
+        padding: 2px;
+        border-bottom: 2px;
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+        
+        
+    }
+    
+    h1 {
+        padding: 0;  
+        margin: 0;
+        font-size: 25px;
+    
+    
+    }
+    
+    h2 {
+         font-size: 18px;  
+    }
+    
+    body {
+    
+    }
+    
+    #center_margin  {
+        width: 100%;
+        border-right: none;
+        border-left: none;
+        
+    }
+    
+    .side_margins {
+    width: 100%; 
+    }
+    
+    div {
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+@media screen and (max-width: 660px) {
+    
+}
