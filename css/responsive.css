@@ -1,13 +1,21 @@
 @media screen and (max-width: 480px) {
     nav a {
-        min-width: 100%;
+        min-width: 98.5%;
         padding: 2px;
         border-bottom: 2px;
-        border-right: 1px solid #000;
-        border-left: 1px solid #000;
+
         border-bottom: 1px solid #000;
         
         
+    }
+    
+    .firstNav {
+        border-top: 1px solid #000;
+    }
+    
+    
+    header {
+        border: 1px solid #000;    
     }
     
     h1 {
