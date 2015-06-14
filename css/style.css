@@ -2,9 +2,16 @@
 General
 ********************************************/
 
+/*universal selector*/
+* {
+    
+}
+
+
+
+
 body {
-    padding: 10px;
-        text-align: center;
+    text-align: center;
     
     background-repeat: no-repeat;
     background:url(/img/naturetrees.jpg) top right no-repeat; background-attachment:fixed;
@@ -13,7 +20,7 @@ body {
 
 img {
     max-width: 100%; 
-    
+    box-shadow: 0 20px 20px 0px #000;
 }
 
 
@@ -27,6 +34,18 @@ li {
     padding: 2px;
     text-align: center;
 }
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+
+
+
+
 /********************************************
 Header
 ********************************************/
@@ -34,9 +53,12 @@ Header
 
 header {
     
-    background-image: url(/img/utopia.jpg);
+    /*background-image: url(/img/utopia.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
+    background-color: azure;
+    border-radius: 20px;
     
 }
 
@@ -47,6 +69,7 @@ h1 {
     text-align: center;
     color: dimgray;
     margin: 10px 10px 20px 10px;
+    text-shadow: -1px -1px 1px #000;
         
 }
 
@@ -67,23 +90,7 @@ h4 {
 
 
 
-/********************************************
-Contact Info
-********************************************/
 
-
-.contact-header {
-    padding-top: 10%;
-}
-
-.contact-info {
-    
-    text-align: center;
-}
-
-.contact-hours {
-    text-align: center;
-}
 
 
 /********************************************
@@ -93,7 +100,7 @@ Navigation Bar
 
 
 nav {
-    background-color: green;
+    
     color: white;
     text-align: center;
     
@@ -104,6 +111,8 @@ nav a {
     color: white;
     padding: 0 10px;
     display: inline-block;
+    border-radius: 10px;
+    background-color: green;
     
 }
 
@@ -115,18 +124,19 @@ nav a:hover {
    color: #66a266; 
 }
 
-
-
 #selected {
     color: blue;
 }
 
+a:active {
+    color: aqua;   
+}
+
+
 /********************************************
 Body
 ********************************************/
-.image_edges {
-    border-radius: 10%;
-}
+
 
 .body {
     color: white;
@@ -135,13 +145,31 @@ Body
     
 }
 
+.main_content {
+    
+}
+
+#paragraph_1 {
+    color: white;
+}
+
+
+
+/********************************************
+Side Margins
+********************************************/
+
+.image_edges {
+    border-radius: 10%;
+}
+
 #left_margin{
     float: left;
     
 }
 
 #center_margin {
-   text-align: center;
+   text-align: justify;
     float: left;
     width: 55%;
     padding: 2.5%;
@@ -161,14 +189,9 @@ Body
     padding: 2%;
 }
 
-.main_content {
-    
-}
 
 
-#paragraph_1 {
-    color: white;
-}
+
 
 
 
@@ -197,6 +220,39 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/************************************************************************
+Other Pages!!!!!!!!!!!!!!!!
+*************************************************************************/
+
+/********************************************
+Contact Info
+********************************************/
+
+
+.contact-header {
+    padding-top: 10%;
+}
+
+.contact-info {
+    
+    text-align: center;
+}
+
+.contact-hours {
+    text-align: center;
+}
+
+
 /********************************************
 Excess Code
 ********************************************/
@@ -204,7 +260,7 @@ Excess Code
 
 /*  id="nature_image"
 
-
+box-sizing: border box                  forces padding borders and such to stay within parameter
 
 
 
