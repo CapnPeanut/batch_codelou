@@ -21,6 +21,7 @@ body {
 img {
     max-width: 100%; 
     box-shadow: 0 20px 20px 0px #000;
+    
 }
 
 
@@ -59,6 +60,7 @@ header {
     background-position: center top;
     background-color: azure;
     border-radius: 20px;
+    background-image: radial-gradient(circle at top left, lightyellow 0%, azure 50%, skyblue 170%)
     
 }
 
@@ -69,15 +71,24 @@ h1 {
     text-align: center;
     color: dimgray;
     margin: 10px 10px 20px 10px;
-    text-shadow: -1px -1px 1px #000;
+    text-shadow: 1px 1px 1px #000;
         
+}
+
+.firstHeader {
+    
 }
 
 h2 {
     text-align: center; 
-    opacity: .2;
+
     margin: 0px 10px 10px;
 }
+
+.secondHeader {
+        opacity: .2;
+}
+
 
 h3 {
     text-align: center;
@@ -103,6 +114,8 @@ nav {
     
     color: white;
     text-align: center;
+    background-color: green;
+    border-radius: 20px;
     
 
 }
@@ -111,8 +124,7 @@ nav a {
     color: white;
     padding: 0 10px;
     display: inline-block;
-    border-radius: 10px;
-    background-color: green;
+    
     
 }
 
@@ -161,6 +173,7 @@ Side Margins
 
 .image_edges {
     border-radius: 10%;
+    margin-top: 100px;
 }
 
 #left_margin{
@@ -181,6 +194,34 @@ Side Margins
 #right_margin{
     float: left;
     
+}
+
+
+
+.signup {
+    text-align: center;
+    color: azure;
+    font-size: 1em;
+    display: inline-block;
+    font-family: serif;
+    
+    
+    
+}
+
+.signup2 {
+    text-align: center;
+    color: azure;
+    font-size: 1em;
+    display: inline-block;
+    font-family: serif;
+}
+
+
+form {
+    background-color: lightgrey;
+    margin-top: 100px;
+    border-radius: 10px;
 }
 
 .side_margins {
