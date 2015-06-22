@@ -4,7 +4,7 @@ General
 
 /*universal selector*/
 * {
-    
+    box-sizing: border-box;
 }
 
 
@@ -157,6 +157,14 @@ Body
     
 }
 
+.gallery {
+    text-align: center;
+    max-width: 50%;
+       
+    margin: 10px;
+    
+}
+
 .main_content {
     
 }
@@ -184,7 +192,7 @@ Side Margins
 #center_margin {
    text-align: justify;
     float: left;
-    width: 55%;
+    width: 60%;
     padding: 2.5%;
     border-right: 4px solid #000;
     border-left: 4px solid #000;
@@ -213,12 +221,12 @@ Side Margins
     text-align: center;
     color: azure;
     font-size: 1em;
-    display: inline-block;
+    display: inline-block;4
     font-family: serif;
 }
 
 
-form {
+.toForm {
     background-color: lightgrey;
     margin-top: 100px;
     border-radius: 10px;
@@ -227,7 +235,7 @@ form {
 .side_margins {
     min-width: 15%; 
     width: 15%;
-    padding: 2%;
+    margin: 2.5%;
 }
 
 
