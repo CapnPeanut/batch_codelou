@@ -2,7 +2,7 @@
 Light Box
 ************************************************************************/
 
-var $overlay = $('<div id="overlay"></div>');
+var $overlay = $('<div class="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></P>");
 
@@ -18,7 +18,7 @@ $("body").append($overlay);
 
 
 
-$("#gallery a").click(function(event){
+$(".gallery a").click(function(event){
     event.preventDefault();
     var imagelocation = $(this).attr("href");
     
@@ -39,17 +39,25 @@ $overlay.click(function(){
 
 
 /************************************************************************
-Light Box
+Nav Menu Mobile
 ************************************************************************/
 
 
-var $select = $("<select id='nav-menu'></select");
-$("#menu").append($select);
+var $select = $("<select class='navMenu'></select>");
+$(".menu").append($select);
 
-$("#menu a").each(function(){
+$(".menu a").each(function(){
     var $anchor = $(this);
     
     var $option = $("<option></option>");
+    
+    
+    //selected select thingy
+    if($anchor.parent().hasClass("selectedItem")) {
+        $option.prop("selected", true);   
+    }
+    
+    
     
     $option.val($anchor.attr("href"));
     
@@ -59,10 +67,8 @@ $("#menu a").each(function(){
     
 });
 
-var $button = $("<button id='nav-button'>Go</button>");
-$("#menu").append($button);
 
-$button.click(function(){
+$select.change(function(){
     
  window.location = $select.val();
     
@@ -80,7 +86,9 @@ $button.click(function(){
 
 
 
+/*add password limitations
 
+*/
 
 
 

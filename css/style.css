@@ -110,7 +110,7 @@ Navigation Bar
 
 
 
-nav {
+.menu {
     
     color: white;
     text-align: center;
@@ -120,7 +120,7 @@ nav {
 
 }
 
-nav a {
+.menu li {
     color: white;
     padding: 0 10px;
     display: inline-block;
@@ -128,15 +128,15 @@ nav a {
     
 }
 
-nav a:visited {
+.menu :visited {
     color: #003c00;
-}
+} 
 
-nav a:hover {
+.menu a:hover {
    color: #66a266; 
 }
 
-#selected {
+.selected {
     color: blue;
 }
 
@@ -157,32 +157,13 @@ Body
     
 }
 
-#gallery {
-    text-align: center;
-    
-       
-    
-    
-}
 
-#gallery li {
-    max-width: 40%;
-
-    float: left;
-    margin: 10px;
-    
-}
-
-#gallery li:nth-child(3n) {
-    clear: left;   
-}
-
-.main_content {
-    
-}
-
-#paragraph_1 {
+.mainContent {
     color: white;
+}
+
+.paragraph-1 {
+   
 }
 
 
@@ -191,17 +172,17 @@ Body
 Side Margins
 ********************************************/
 
-.image_edges {
+.imageEdges {
     border-radius: 10%;
     margin-top: 100px;
 }
 
-#left_margin{
+.leftMargin {
     float: left;
     
 }
 
-#center_margin {
+.centerMargin {
    text-align: justify;
     float: left;
     width: 60%;
@@ -211,7 +192,7 @@ Side Margins
     
 }
 
-#right_margin{
+.rightMargin{
     float: left;
     
 }
@@ -244,7 +225,7 @@ Side Margins
     border-radius: 10px;
 }
 
-.side_margins {
+.sideMargins {
     min-width: 15%; 
     width: 15%;
     margin: 2.5%;
@@ -256,7 +237,7 @@ Side Margins
 
 
 
-#nature_trees {
+.natureTrees {
   
 }
 
@@ -271,10 +252,12 @@ Footer
 
 
 footer {
+    width: 100%;
     background-color: green;
     color: white;
     clear: both;
-    margin-top: 500px
+    position: absolute;
+    
 }
 
 
@@ -300,16 +283,16 @@ Contact Info
 ********************************************/
 
 
-.contact-header {
+.contactHeader {
     padding-top: 10%;
 }
 
-.contact-info {
+.contactInfo {
     
     text-align: center;
 }
 
-.contact-hours {
+.contactHours {
     text-align: center;
 }
 
@@ -319,7 +302,26 @@ Gallery
 ********************************************/
 
 
-#overlay {
+.gallery {
+    text-align: center;
+    
+}
+
+.gallery li {
+    max-width: 40%;
+
+    float: left;
+    margin: 10px;
+    
+}
+
+.gallery li:nth-child(3n) {
+    clear: left;   
+}
+
+
+
+.overlay {
     background: rgba(0,0,0,0.7);
     width: 100%;
     height: 100%;
@@ -331,14 +333,25 @@ Gallery
         
 }
 
-#overlay img {
+.overlay img {
     margin-top: 10%;
     text-align: center;
 }
 
-#overlay p {
+.overlay p {
     color: white;
 }
+
+
+/********************************************
+Table
+********************************************/
+
+.table {
+    border: 2px solid #000;
+    width: 100%;
+}
+
 
 
 /********************************************
