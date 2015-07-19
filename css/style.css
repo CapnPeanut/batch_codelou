@@ -137,13 +137,16 @@ Navigation Bar
 }
 
 .selected {
-    color: blue;
+    color: mediumspringgreen;
 }
 
 a:active {
     color: aqua;   
 }
 
+#booger{
+    color: mediumspringgreen;
+}
 
 /********************************************
 Body
@@ -256,7 +259,7 @@ footer {
     background-color: green;
     color: white;
     clear: both;
-    position: absolute;
+    position: relative;
     
 }
 
@@ -352,6 +355,9 @@ Table
     width: 100%;
 }
 
+.selected {
+    color: mediumspringgreen;
+}
 
 
 /********************************************
